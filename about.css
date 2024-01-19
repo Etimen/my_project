@@ -1,0 +1,23 @@
+.cnt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    padding: 77px;
+
+}
+.photo{
+    height: 700px;
+    width: 500px;
+    background-image: url(img2.png);
+}
+.txt p{
+    width: 500px;
+    margin-right:200px;
+    background-color: bisque;
+
+}
+/* body{
+    background-image: url(img10.jpg);
+} */
