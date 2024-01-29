@@ -1,23 +1,28 @@
-.cnt{
+
+#abt{
+    background-color:rgb(160, 221, 136);
+ }
+
+#abt{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: auto;
-    height: 500px;
-    padding: 77px;
-
 }
-.photo{
+.pic{
+    background-image:url(detail-feuille-tropicale-sombre.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 700px;
     width: 500px;
-    background-image: url(img2.png);
-}
-.txt p{
-    width: 500px;
-    margin-right:200px;
-    background-color: bisque;
+    padding: 100px;
+    margin-top: 83px;
 
 }
-/* body{
-    background-image: url(img10.jpg);
-} */
+p{
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    width: 750px;
+    margin-top: 155px;
+    font-size: 22px;
+    color: #0F2120;
+}
