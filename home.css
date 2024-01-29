@@ -80,11 +80,9 @@
 }
 .logo{
     border: 5px solid #789461;
-    background-origin:inherit;
     border-radius: 15px 50px 30px;
     padding: 15px;
     color: #DBE7C9;
-    margin-right: 350px;
 }
 .img{
     height: 756px;
