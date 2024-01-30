@@ -1,6 +1,7 @@
 
 #abt{
     background-color:rgb(160, 221, 136);
+    height: 800px;
  }
 
 #abt{
@@ -8,21 +9,23 @@
     justify-content: space-around;
 }
 .pic{
+    border: #0F2120 solid 2px;
+    box-shadow: 10px 10px 5px 12px #006300;;
+    border-radius: 25px;
     background-image:url(detail-feuille-tropicale-sombre.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 700px;
     width: 500px;
-    padding: 100px;
-    margin-top: 83px;
-
+    margin-top: 70px;
 }
-p{
+.textabt{
+    padding: 250px;
     padding: 15px;
     color: aliceblue;
     text-align: center;
     width: 750px;
-    margin-top: 155px;
+    margin-top: 105px;
     font-size: 22px;
     color: #0F2120;
 }
