@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    color: crimson;
+    background-color: #294B29;
+    text-align: center;
+    height: 75px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:gray;
+}
+.menu-bar ul li{
+    height: 50px;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;  
+}
+.active,.menu-bar ul li:hover{
+    background-color: #789461;
+    border-radius: 3px;
+    
+
+}
+.menu-bar .fa{
+    margin: 25px; 
+}
+
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #d0eba8;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgb(0, 145, 255);
+}
+.fa-solid fa-file{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#DBE7C9;
+}
+.logo{
+    margin-right:250px;
+    border: 5px solid #789461;
+    background-origin:inherit;
+    border-radius: 15px 50px 30px;
+    padding: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    color: #DBE7C9;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#abt{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pic{
+    border-radius: 25px;
+    background-image:url(explor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic1{
+    border-radius: 25px;
+    background-image:url(firends.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic2{
+    border-radius: 25px;
+    background-image:url(family.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic3{
+    border-radius: 25px;
+    background-image:url(kids.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic4{
+    border-radius: 25px;
+    background-image:url(scientist.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic5{
+    border-radius: 25px;
+    background-image:url(solo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+/* .bigcontainer{
+    background-color:salmon;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+} */
+.textabt{
+    color: aliceblue;
+    text-align: center;
+    width: 750px;
+    margin-top: 115px;
+    font-size: 20px;
+
+}
+.cardtext{
+    margin-bottom: 50px;
+}
+.cont{
+    border: #789461 2px solid;
+    width: 100%;
+    /* margin: 100px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.bigcontiner{
+    background-color: #789461;
+}
+i{
+    color: black;
+}
+.fa{
+    margin:5px;
+}
