@@ -104,7 +104,7 @@
 }
 .pic{
     border-radius: 25px;
-    background-image:url(explor.jpg);
+    background-image:url(gallery/explor.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -115,7 +115,7 @@
 }
 .pic1{
     border-radius: 25px;
-    background-image:url(firends.avif);
+    background-image:url(gallery/firends.avif);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -126,7 +126,7 @@
 }
 .pic2{
     border-radius: 25px;
-    background-image:url(family.jpg);
+    background-image:url(gallery/family.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -137,7 +137,7 @@
 }
 .pic3{
     border-radius: 25px;
-    background-image:url(kids.jpg);
+    background-image:url(gallery/kids.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -148,7 +148,7 @@
 }
 .pic4{
     border-radius: 25px;
-    background-image:url(scientist.jpg);
+    background-image:url(gallery/scientist.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -159,7 +159,7 @@
 }
 .pic5{
     border-radius: 25px;
-    background-image:url(solo.jpg);
+    background-image:url(gallery/solo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -178,18 +178,22 @@
     color: aliceblue;
     text-align: center;
     width: 750px;
-    margin-top: 115px;
+    margin-top: 70px;
     font-size: 20px;
 
 }
-.cardtext{
-    margin-bottom: 50px;
-}
+/* .cardtext{
+    /* margin-bottom: 50px; */
+
 .cont{
     border: #789461 2px solid;
-    width: 100%;
-    /* margin: 100px; */
+    box-shadow: 0 0 20px #789461;
+    width: 98%;
+     margin-right: 1%; 
+     margin-left:1% ;
+     margin-top: 1%;
     display: flex;
+    border-radius: 25px;
     justify-content: space-between;
 
 }
@@ -201,4 +205,14 @@ i{
 }
 .fa{
     margin:5px;
+}
+.lesiconscnt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icontext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

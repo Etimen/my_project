@@ -1,4 +1,8 @@
+
+
+/*home page*/
 *{
+    
     /* text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
     color:rgb(160, 221, 136); */
     padding: 0;
@@ -6,6 +10,7 @@
     box-sizing: border-box;
 
 }
+
 .menu-bar{
     color: crimson;
     background-color: #294B29;
@@ -34,7 +39,7 @@
 
 }
 .menu-bar .fa{
-    margin: 25px; 
+    margin: 15px; 
 }
 
 
@@ -87,24 +92,22 @@
     border-radius: 15px 50px 30px;
     padding: 15px;
     padding-right: 15px;
-    padding-top: 1px;
+    padding-top: 15px;
     color: #DBE7C9; 
 }
-.img{
+.imgS{
     height: 756px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(img7.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(gallery/img7.jpg);
     background-size:150%;
     background-position:center;
     background-repeat: no-repeat;
     background-size: 100%;
-    Background-repeat : no-repeat;
-    Background-position:center;
     Background-size:cover;
     Background-attachment:fixed;
     font-family: sans-serif;
     background-size: cover;
 }
-.h1welcome{
+#welc{
     font-size:43px;
     text-align: center;
     padding-top: 250px;
@@ -112,7 +115,7 @@
     color:rgb(160, 221, 136);
     height: 100%;
 }
-.container{
+/*.container{
     display: flex;
     justify-content: space-around ;
     margin :25px ;
@@ -152,4 +155,209 @@
     display: flex;
     justify-content: end;
     margin: 25px;
+}*/
+/* about */
+
+/*  cards clients (in more abt clients page )   */ 
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#abt{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pic{
+    border-radius: 25px;
+    background-image:url(gallery/explor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic1{
+    border-radius: 25px;
+    background-image:url(gallery/firends.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic2{
+    border-radius: 25px;
+    background-image:url(gallery/family.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic3{
+    border-radius: 25px;
+    background-image:url(gallery/kids.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic4{
+    border-radius: 25px;
+    background-image:url(gallery/scientist.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.pic5{
+    border-radius: 25px;
+    background-image:url(gallery/solo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+/* .bigcontainer{
+    background-color:salmon;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+} */
+.textabt{
+    color: aliceblue;
+    text-align: center;
+    width: 750px;
+    margin-top: 70px;
+    font-size: 20px;
+
+}
+/* .cardtext{
+    /* margin-bottom: 50px; */
+
+.cont{
+    border: #789461 2px solid;
+    box-shadow: 0 0 20px #789461;
+    width: 98%;
+     margin-right: 1%; 
+     margin-left:1% ;
+     margin-top: 1%;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+
+}
+.bigcontiner{
+    background-color: #789461;
+}
+i{
+    color: black;
+}
+.fa{
+    margin:5px;
+}
+.lesiconscnt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icontext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* cards home */
+#img1{
+    height: 191px;
+    width: 288px;
+    
+}
+.container{
+    display: flex;
+   justify-content: space-around ;
+   
+   /* border: 5px solid #198754;
+   border-radius: 25px; */
+}
+.card-background{
+   background-color: #d0eba8;
+}
+.cardtitle{
+   text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
+   color: #294B29;
+}
+.card-body{
+   padding: 5px;
+   font-size: 18px;
+   line-height: 33px;
+
+}
+.card-title{
+    padding: 30px;
+    margin: -25px;
+
+}
+.card-text{
+    padding: 15px;
+    font-size:18px;
+}
+#btn{
+    text-decoration: none;
+}
+.btn{
+    margin-top: 15px;
+    margin-left:25px;
+    border: 2px solid black;
+    height: 40px;
+    width: 95px;
+    background: #C1E103;
+    color: #C2BC0F;
+    border-radius: 5px;
+}
+.btn1{
+    margin-top: 15px;
+    margin-left:25px;
+    border: 2px solid black;
+    height: 40px;
+    width: 95px;
+    background: #F2A600;
+    color: #C2BC0F;
+    border-radius: 5px;
+}
+.btn2{
+    margin-top: 15px;
+    margin-left:25px;
+    border: 2px solid black;
+    height: 40px;
+    width: 95px;
+    background: #C10C1A;
+    color: #C2BC0F;
+    border-radius: 5px;
+}
+
+.border-cards{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 35px;
 }
