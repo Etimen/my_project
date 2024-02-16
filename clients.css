@@ -7,7 +7,7 @@
     color: crimson;
     background-color: #294B29;
     text-align: center;
-    height: 75px;
+    height: 82px;
 }
 .menu-bar ul{
     display: inline-flex;
@@ -31,7 +31,7 @@
 
 }
 .menu-bar .fa{
-    margin: 25px; 
+    margin: 25px;
 }
 
 
@@ -84,8 +84,17 @@
     border-radius: 15px 50px 30px;
     padding: 15px;
     padding-right: 15px;
-    padding-top: 1px;
+    padding-top: 15px;
     color: #DBE7C9;
+}
+ul{
+    font-size: large;
+    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
+    color:rgb(160, 221, 136);
+}
+.fa{
+    color: #49da0f;
+    background-color: #49da0f;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .card-img-top{
@@ -107,66 +116,72 @@
     background-image:url(gallery/explor.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic1{
     border-radius: 25px;
     background-image:url(gallery/firends.avif);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic2{
     border-radius: 25px;
     background-image:url(gallery/family.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic3{
     border-radius: 25px;
     background-image:url(gallery/kids.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic4{
     border-radius: 25px;
     background-image:url(gallery/scientist.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic5{
     border-radius: 25px;
     background-image:url(gallery/solo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 /* .bigcontainer{
     background-color:salmon;
@@ -178,8 +193,9 @@
     color: aliceblue;
     text-align: center;
     width: 750px;
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 20px;
+    line-height: 30px;
 
 }
 /* .cardtext{
@@ -194,6 +210,7 @@
      margin-top: 1%;
     display: flex;
     border-radius: 25px;
+    height: 500px;
     justify-content: space-between;
 
 }
@@ -210,7 +227,27 @@ i{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 34px;
 }
+#lesiconscnt1{
+    margin-top: 20px;
+}
+#lesiconscnt2{
+    margin-top: 55px;
+}
+#lesiconscnt3{
+    margin-top: 48px;
+}
+#lesiconscnt4{
+    margin-top: 77px;
+}
+#lesiconscnt5{
+    margin-top: 40px;
+}
+#lesiconscnt6{
+    margin-top: 25px;
+}
+
 .icontext{
     display: flex;
     align-items: center;
@@ -220,4 +257,36 @@ i{
     margin-top: 5%;
     font-size: large;
     font-size:24px ;
+    margin-left: 12px;
+    text-decoration:double;
+    text-decoration-line:underline;
+    text-decoration-color:#99ff00;
+    color:rgba(0, 0, 0, 0.659);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.destinations{
+    text-decoration: none;
+    font-size: large;
+}
+#f1card{
+    margin-bottom: 70px;
+}
+#h1titlecard1{
+    margin-left: 55px;
+}
+#h1titlecard2{
+    margin-left: 155px;
+}
+#h1titlecard3{
+    margin-left: 75px;
+}
+#h1titlecard4{
+    margin-left: 5px;
+    
+}
+#h1titlecard5{
+    margin-left: 55px;
+}
+#h1titlecard6{
+    margin-left: 55px;
 }

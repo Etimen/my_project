@@ -7,7 +7,7 @@
     color: crimson;
     background-color: #294B29;
     text-align: center;
-    height: 75px;
+    height: 82px;
 }
 .menu-bar ul{
     display: inline-flex;
@@ -31,7 +31,7 @@
 
 }
 .menu-bar .fa{
-    margin: 25px; 
+    margin: 25px;
 }
 
 
@@ -84,8 +84,17 @@
     border-radius: 15px 50px 30px;
     padding: 15px;
     padding-right: 15px;
-    padding-top: 1px;
+    padding-top: 15px;
     color: #DBE7C9;
+}
+ul{
+    font-size: large;
+    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
+    color:rgb(160, 221, 136);
+}
+.fa{
+    color: #49da0f;
+    background-color: #49da0f;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .card-img-top{
@@ -105,54 +114,67 @@
 .pic{
     border-radius: 25px;
     background-image:url(gallery/scubadiving.jpg);
-    background-size: 90%;
+    background-size: 110%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic1{
     border-radius: 25px;
-    background-image:url(gallery/firends.avif);
+    background-image:url(gallery/ncamping.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pic2{
     border-radius: 25px;
     background-image:url(gallery/hikking1.webp);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 334px;
     width: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.pic3{
+    border-radius: 25px;
+    background-image:url(gallery/skydive.jpg);
+    background-size: 115% 114%;
+    background-repeat: no-repeat;
+    height: 334px;
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-/* .bigcontainer{
-    background-color:salmon;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-} */
+
+
 .textabt{
     color: aliceblue;
     text-align: center;
     width: 750px;
     margin-top: 70px;
     font-size: 20px;
+    line-height: 30px;
 
 }
-/* .cardtext{
-    /* margin-bottom: 50px; */
-
 .cont{
     border: #789461 2px solid;
     box-shadow: 0 0 20px #789461;
@@ -184,8 +206,57 @@ i{
     align-items: center;
     gap: 10px;
 }
+
 .h1titlecard{
     margin-top: 5%;
     font-size: large;
     font-size:24px ;
+    margin-left: 12px;
+    text-decoration-line:underline;
+    text-decoration-color:#8FC2B6;
+    color:rgba(0, 0, 0, 0.659);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.destinations{
+    text-decoration: none;
+    font-size: large;
+}
+#f1card{
+    margin-bottom: 70px;
+}
+#h1titlecard1{
+    margin-left: 55px;
+}
+#h1titlecard2{
+    margin-right: 85px;
+}
+#h1titlecard3{
+    margin-left: 75px;
+}
+#h1titlecard4{
+    margin-left: 115px;
+}
+#cnt1{
+    background-color: #5BBACC;
+}
+#cnt2{
+    background-color: rgb(227, 168, 50);
+}
+#cnt3{
+    background-color: #46200C;
+}
+#cnt4{
+    background-color:#C3CACE;
+}
+#textcard1{
+    margin-right: 45px;
+}
+#textcard2{
+    margin-right: 45px;
+}
+#textcard3{
+    margin-right: 45px;
+}
+#textcard4{
+    margin-right: 45px;
 }

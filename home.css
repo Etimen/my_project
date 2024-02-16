@@ -95,6 +95,15 @@
     padding-top: 15px;
     color: #DBE7C9; 
 }
+ul{
+    font-size: large;
+    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
+    color:rgb(160, 221, 136);
+}
+.fa{
+    color: #49da0f;
+    background-color: #49da0f;
+}
 .imgS{
     height: 756px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(gallery/img7.jpg);
@@ -115,13 +124,7 @@
     color:rgb(160, 221, 136);
     height: 100%;
 }
-/*.container{
-    display: flex;
-    justify-content: space-around ;
-    margin :25px ;
-    border: 5px solid #198754;
-    border-radius: 25px;
-}
+
 .card-background{
     background-color: #d0eba8;
     
@@ -132,31 +135,75 @@
 }
 .card{
     border: 2px solid #294B29;
-}
-.cardtitle{
-    color: #294B29;
-    text-shadow: 0 0 20px #294B29,0 0 40px #4cfe06;
+    
 }
 .border-cards{
     border: 2px solid #198754;
     border-radius: 25px;
 }
 
+
+
+
+/*about*/
+#abt{
+    background-color:rgb(160, 221, 136);
+    height: 800px;
+ }
+
+#abt{
+    display: flex;
+    justify-content: space-around;
+}
+.pic{
+    border: #0F2120 solid 2px;
+    box-shadow: 10px 10px 5px 12px #006300;;
+    border-radius: 25px;
+    background-image:url(gallery/detail-feuille-tropicale-sombre.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 500px;
+    margin-top: 50px;
+}
+.textabt{
+
+    padding: 250px;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    width: 750px;
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 37px;
+    color: #0C2A29 !important;
+}
+
+/*footer*/
 .home-footer{
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #294B29;
 }
 .natura-footer{
-    margin-bottom: 45px;
-    padding: 50px;
+
 }
 .logo-footer{
     display: flex;
     justify-content: end;
-    margin: 25px;
-}*/
-/* about */
+    gap: 10px;
+    margin-top: 230px;
+}
+#naturafooter{
+    margin-right:1290px;
+    border: 5px solid #789461;
+    background-origin:inherit;
+    border-radius: 15px 50px 30px;
+    padding: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #DBE7C9;
+}
 
 /*  cards clients (in more abt clients page )   */ 
 .card-img-top{
@@ -239,12 +286,7 @@
     margin-bottom: 50px;
     color: black;
 }
-/* .bigcontainer{
-    background-color:salmon;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-} */
+
 .textabt{
     color: aliceblue;
     text-align: center;
@@ -253,8 +295,7 @@
     font-size: 20px;
 
 }
-/* .cardtext{
-    /* margin-bottom: 50px; */
+
 
 .cont{
     border: #789461 2px solid;
@@ -302,6 +343,7 @@ i{
 }
 .card-background{
    background-color: #d0eba8;
+
 }
 .cardtitle{
    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
@@ -361,3 +403,17 @@ i{
     border-radius: 5px;
     margin-top: 35px;
 }
+@media screen and (max-width:676px){
+    .menu-bar{
+        display: none;
+        visibility: hidden;
+    }
+    #welc{
+        font-size: medium;
+        margin-left: 28px;
+    }
+    .imgS{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(gallery/Responsivehome.jpg);
+    }
+    }
+
