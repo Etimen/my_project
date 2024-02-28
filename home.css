@@ -13,9 +13,9 @@
 
 .menu-bar{
     color: crimson;
-    background-color: #294B29;
+    background-color: #306230;
     text-align: center;
-    height: 75px;
+    height: 82px;
 }
 .menu-bar ul{
     display: inline-flex;
@@ -93,7 +93,7 @@
     padding: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    color: #DBE7C9; 
+    color: #DBE7C9;
 }
 ul{
     font-size: large;
@@ -106,7 +106,7 @@ ul{
 }
 .imgS{
     height: 756px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(gallery/img7.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),  url(gallery/img7.jpg);
     background-size:150%;
     background-position:center;
     background-repeat: no-repeat;
@@ -120,9 +120,20 @@ ul{
     font-size:43px;
     text-align: center;
     padding-top: 250px;
-    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
-    color:rgb(160, 221, 136);
+    /*text-shadow: 0 0 20px #789461,0 0 40px #49da0f;*/
+    /*color:rgb(160, 221, 136);*/
     height: 100%;
+
+    background:  linear-gradient(
+    to left,#265003,#79cc80 25% ,#40c3de );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    animation: grandient 3s linear infinite;}
+@keyframes grandient {
+    0% { background-position: 0% 75%;}
+    50%{ background-position: 100% 50%;}
+    100% { background-position: 0% 70%;}
 }
 
 .card-background{
@@ -180,30 +191,26 @@ ul{
 }
 
 /*footer*/
-.home-footer{
+.footer{
     height: 350px;
     width: 100%;
     background-color: #294B29;
 }
-.natura-footer{
+.footer{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
-.logo-footer{
+.lesliens{
     display: flex;
-    justify-content: end;
-    gap: 10px;
-    margin-top: 230px;
+
 }
-#naturafooter{
-    margin-right:1290px;
-    border: 5px solid #789461;
-    background-origin:inherit;
-    border-radius: 15px 50px 30px;
-    padding: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    color: #DBE7C9;
-}
+
+
+
 
 /*  cards clients (in more abt clients page )   */ 
 .card-img-top{
@@ -345,6 +352,17 @@ i{
    background-color: #d0eba8;
 
 }
+.lesliens{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;    
+}
+.ftr{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: medium;
+}
 .cardtitle{
    text-shadow: 0 0 20px #789461,0 0 40px #49da0f;
    color: #294B29;
@@ -409,11 +427,18 @@ i{
         visibility: hidden;
     }
     #welc{
-        font-size: medium;
+        font-size: large;
         margin-left: 28px;
     }
     .imgS{
+        height: 500px;
+        width: 100%;
         background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),  url(gallery/Responsivehome.jpg);
     }
+    .textabt{
+        font-size: 5px;
     }
+    }
+
+
 

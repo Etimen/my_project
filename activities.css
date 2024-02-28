@@ -191,7 +191,7 @@ ul{
     background-color: #789461;
 }
 i{
-    color: black;
+    color: #004856;
 }
 .fa{
     margin:5px;
@@ -223,18 +223,26 @@ i{
 }
 #f1card{
     margin-bottom: 70px;
+
 }
 #h1titlecard1{
     margin-left: 55px;
+    color: #4F5E6F;
+    text-decoration: overline black;
 }
 #h1titlecard2{
     margin-right: 85px;
+    color: #967E55;
+    text-decoration: overline black;
 }
 #h1titlecard3{
     margin-left: 75px;
+    color: white;
+    text-decoration: overline black;
 }
 #h1titlecard4{
     margin-left: 115px;
+    text-decoration: overline black;
 }
 #cnt1{
     background-color: #5BBACC;
@@ -257,6 +265,7 @@ i{
 #textcard3{
     margin-right: 45px;
 }
-#textcard4{
+#cardtext4{
     margin-right: 45px;
+    color:#C1C7CC;
 }
