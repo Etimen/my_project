@@ -120,10 +120,7 @@ ul{
     font-size:43px;
     text-align: center;
     padding-top: 250px;
-    /*text-shadow: 0 0 20px #789461,0 0 40px #49da0f;*/
-    /*color:rgb(160, 221, 136);*/
     height: 100%;
-
     background:  linear-gradient(
     to left,#265003,#79cc80 25% ,#40c3de );
     background-size: 200% auto;
@@ -135,26 +132,6 @@ ul{
     50%{ background-position: 100% 50%;}
     100% { background-position: 0% 70%;}
 }
-
-.card-background{
-    background-color: #d0eba8;
-    
-
-}
-.card-body{
-    background-color:#d0eba8 ;
-}
-.card{
-    border: 2px solid #294B29;
-    
-}
-.border-cards{
-    border: 2px solid #198754;
-    border-radius: 25px;
-}
-
-
-
 
 /*about*/
 #abt{
@@ -204,22 +181,145 @@ ul{
 
 
 }
-.lesliens{
+.naturafooter{
     display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    
+}
+.naturafooter:hover{
+    font-size: xx-large;
+    border: 5px solid #789461;
+    background-origin:inherit;
+    border-radius: 15px 50px 30px;
+    padding: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #DBE7C9;
+    margin-left: 100px;
+}
+.lesliensfoot{
+    display: flex;
+    gap:25px;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#ftr1:hover{
+    font-size: 28px;
+    transform:translateX(25px);
+    transition-duration:1s;
+    color:#000000;
+    text-decoration: underline rgb(64, 63, 63);
+}
+#ftr2:hover{
+    font-size: 28px;
+    transform:translateX(25px);
+    transition-duration:1s;
+    color:#000000;
+    text-decoration: underline rgb(64, 63, 63);
+}
 
+#ftr3:hover{
+    font-size: 28px;
+    transform:translateX(25px);
+    transition-duration:1s;
+    color:#000000;
+    text-decoration: underline rgb(64, 63, 63);
+}
+
+#ftr4:hover{
+    font-size: 28px;
+    transform:translateX(25px);
+    transition-duration:1s;
+    color:#000000;
+    text-decoration: underline rgb(64, 63, 63);
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-right: 20px;
+}
+.fa-facebook{
+    margin-top: 25px;
+    margin-left :10px;
+}
+.Facebook:hover{
+    margin-bottom: 5px;
+    font-size: 22px;
+    margin-left: 49px;
+    font-family: "Klavika";
+}
+#hoverme1:hover{
+    transform:translateX(25px);
+    transition-duration:0.3s;
+    color: white;
+    background-color: #0866FF;
+    padding: top 25px;
+    width: 250px;
+    transition: 0.3s;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 50px;
+}
+.Insta{
+    font-size: 22px;
+    margin-left: 50px;
+}
+.Facebook{
+    font-size: 22px;
+    margin-left: 50px;
+}
+.fa-twitter{
+    margin-top: 25px;
+    margin-left :10px;
+}
+.Twitter{
+    font-size: 22px;
+    margin-left: 50px;
+}
+#hoverme2:hover{
+    transform:translateX(25px);
+    transition-duration:0.3s;
+    color: white;
+    background-color: #1D9BF0;
+    padding: top 25px;
+    width: 250px;
+    transition: 0.3s;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 50px;
+}
+.fa-instagram{
+    margin-top: 25px;
+    margin-left :10px;
+}
+
+#hoverme3:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transform:translateX(25px);
+    transition-duration:0.3s;
+    color: black;
+    background-color: #4e81d1;
+    padding: top 25px;
+    width: 250px;
+    transition: 0.3s;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 50px;
+}
+.copyright{
+    position: relative;
+    right: 600px;
+    top: 50px;
 }
 
 
 
 
-/*  cards clients (in more abt clients page )   */ 
-.card-img-top{
-    height: 200px;
-    width: 200px;
-}
-.card{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+
+
 
 
 #abt{
